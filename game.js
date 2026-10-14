@@ -31,7 +31,7 @@ function intro() {
   mount(`<section class="hero" aria-labelledby="intro-title">
     <div class="hero-copy"><p class="eyebrow">Маленькая история Армена и Саиды</p>
       <h1 id="intro-title">Обычный вечер.<br><em>Необычная новость.</em></h1>
-      <p class="body-copy">У Армена — любимый кофе. У Саиды — конверт,<br>который изменит их привычные вечера.</p>
+      <p class="body-copy">У Армена — любимый кофе из Гандза.<br>У Саиды — конверт. А в нём — не махр,<br>а кое-что волшебное.</p>
       <button class="primary" id="start">Начать историю <span class="arrow" aria-hidden="true">→</span></button>
       <div class="under-button"><span>◷ около 20 секунд</span><span>♡ для всех наших</span></div>
     </div>
@@ -176,7 +176,7 @@ function final() {
   mount(`<section class="final" aria-labelledby="final-title"><p class="eyebrow">Теперь ты тоже знаешь ♡</p><h1 id="final-title">Армен и Саида,<br><em style="color:inherit">у вас будет мальчик!</em></h1>
     <p class="body-copy">На кого он будет похож, пока неизвестно.<br>Кто будет его любить — уже понятно.</p>
     <div class="final-art-wrap"><img src="assets/couple.png" alt="Счастливые Армен и Саида, нарисованные по их фотографиям"><div class="welcome-label"><span>Скоро в компании</span>+1 маленький<br>человек ♡</div></div>
-    <p class="final-message">Кофе для папы — из «Гандза».<br>А любовь для малыша — от всех нас.</p>
+    <p class="final-message">Кофе для папы — из Гандза.<br>А любовь для малыша — от всех нас.</p>
     <div class="final-actions"><button class="primary" id="share">Поделиться историей <span aria-hidden="true">↗</span></button><button class="text-btn" id="again">Посмотреть ещё раз</button></div><p class="final-caption">Армен + Саида + один маленький человек.</p>
   </section>`);
   document.getElementById('again').onclick = intro;
